@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+nav{
+    background-color: #eeeeee;
+    min-height: 40px;
+    padding-top: 10px;
+    max-height: 60px;
+}
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-name{
+    font-size: 20px;
+}
+
+.navigation-right{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;    
+}
+
+.navigation-left>ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation-left>ul>li{
+    padding: 0 30px;
+}
+
+.navigation-left>ul>li>a{
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Main css */
+#Project{
+    margin: 40px;
+}
+#Project>h2{
+    border-width: 2px 0 2px 0;
+    border-style:  solid;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 30px;
+}
+.project-done{
+    background-color: #eeeeee;
+}
+.list-project{
+    list-style-type: none;
+    display: flex;
+    max-width: 20px;
+}
+.my-project > summary {
+    padding: 4px;
+    padding-bottom: 10px;
+    width: 280px;
+    background-color: #eeeeee;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+  }
+.About{
+    width: auto;
+}
+.detail-project {
+    background-color: #eeeeee;
+    padding: 4px;
+    margin: 0;
+    font-size: 20px;
+    min-height: 310px;
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px;
+}
+.introduction p{
+    width:80vw;
+    font-size: 20px;
+    background-color: #eeeeee;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 224, 218);
+    height: 40px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+footer ul li{
+    margin: 30px;
+    font-size: 25px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(33, 29, 29);
+}
